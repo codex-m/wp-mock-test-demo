@@ -14,4 +14,10 @@ Then, install third party libraries needed this test with:
 composer install
 ```
 
+Finally, you can run the test inside the wp-content/plugins/wp-mock-test-demo directory in terminal:
+
+```bash
+./vendor/bin/phpunit --configuration phpunit.xml
+```
+
 For details, please follow this [tutorial](https://www.php-developer.org/wp_mock-phpunit-testing-framework-wordpress-plugin-complete-guide/).
