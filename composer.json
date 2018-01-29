@@ -1,0 +1,19 @@
+{
+    "name": "codex-m/wp-mock-test-demo",
+    "description": "Basic plugin for demonstrating WP_Mock unit testing integration.",
+    "authors": [
+        {
+            "name": "Emerson Maningo",
+            "email": "codex_m@php-developer.org"
+        }
+    ],
+    "require-dev": {
+        "10up/wp_mock": "dev-master",
+        "phpunit/phpunit": "^6.5"
+    },
+  "autoload": {
+    "classmap": [
+      "includes/"
+    ]
+  }
+}

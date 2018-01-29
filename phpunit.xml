@@ -1,0 +1,13 @@
+<phpunit bootstrap="unit-tests/bootstrap.php"
+         colors="true">
+    <testsuites>
+        <testsuite>            
+	   <directory prefix="test-" suffix=".php">unit-tests/tests</directory>	
+        </testsuite>
+    </testsuites>
+    <groups>
+        <exclude>
+            <group>skipped</group>
+        </exclude>
+    </groups>
+</phpunit>
