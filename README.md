@@ -3,12 +3,13 @@ Dummy plugin for demonstrating WP_Mock unit testing in a WordPress Plugin
 
 ## Installation
 
-First, clone this repository to your wp-content/plugins:
+First, clone this repository to your `wp-content/plugins`:
 
 ```bash
 git clone https://github.com/codex-m/wp-mock-test-demo.git
 ```
-Then, install third party libraries needed this test with:
+
+Then go to `wp-content/plugins/wp-mock-test-demo/` in terminal to install third party libraries with:
 
 ```bash
 composer install
