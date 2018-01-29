@@ -1,0 +1,45 @@
+# Numerous always-ignore extensions
+*.csv
+*.dat
+*.diff
+*.err
+*.gz
+*.log
+*.log
+*.orig
+*.out
+*.pid
+*.rej
+*.ruby-version
+*.sass-cache
+*.seed
+*.swo
+*.swp
+*.vi
+*.zip
+*~
+lib-cov
+
+# OS or Editor folders
+.DS_Store
+._*
+Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.sublime-*
+.editorconfig
+
+# Folders to ignore
+.hg
+.svn
+.CVS
+.idea
+tmp
+pids
+src
+node_modules
+vendor
